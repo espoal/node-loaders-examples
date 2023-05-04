@@ -1,0 +1,8 @@
+{
+  "name": "brotli",
+  "scripts": {
+    "pack": "brotli index.mjs",
+    "start": "node --loader ./loader.mjs index.mjs.br"
+  },
+  "packageManager": "yarn@4.0.0-rc.43"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "simple",
+  "scripts": {
+    "start": "node --loader ./loader.mjs index.mjs"
+  },
+  "packageManager": "yarn@4.0.0-rc.43"
+}
