@@ -1,6 +1,4 @@
 {
-  "packageManager": "yarn@4.0.0-rc.43",
-  "workspaces": [
-    "examples/*"
-  ]
+  "name": "node-loaders-examples",
+  "packageManager": "yarn@4.0.0-rc.43"
 }

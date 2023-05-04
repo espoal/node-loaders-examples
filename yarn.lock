@@ -4,20 +4,8 @@
 __metadata:
   version: 7
 
-"brotli@workspace:examples/brotli":
+"node-loaders-examples@workspace:.":
   version: 0.0.0-use.local
-  resolution: "brotli@workspace:examples/brotli"
-  languageName: unknown
-  linkType: soft
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  languageName: unknown
-  linkType: soft
-
-"simple@workspace:examples/simple":
-  version: 0.0.0-use.local
-  resolution: "simple@workspace:examples/simple"
+  resolution: "node-loaders-examples@workspace:."
   languageName: unknown
   linkType: soft

@@ -10,24 +10,14 @@ const RAW_RUNTIME_STATE =
   ],\
   "dependencyTreeRoots": [\
     {\
-      "name": "root-workspace-0b6124",\
+      "name": "node-loaders-examples",\
       "reference": "workspace:."\
-    },\
-    {\
-      "name": "brotli",\
-      "reference": "workspace:examples/brotli"\
-    },\
-    {\
-      "name": "simple",\
-      "reference": "workspace:examples/simple"\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
-    ["brotli", ["workspace:examples/brotli"]],\
-    ["root-workspace-0b6124", ["workspace:."]],\
-    ["simple", ["workspace:examples/simple"]]\
+    ["node-loaders-examples", ["workspace:."]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -40,29 +30,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "SOFT"\
       }]\
     ]],\
-    ["brotli", [\
-      ["workspace:examples/brotli", {\
-        "packageLocation": "./examples/brotli/",\
-        "packageDependencies": [\
-          ["brotli", "workspace:examples/brotli"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["root-workspace-0b6124", [\
+    ["node-loaders-examples", [\
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["root-workspace-0b6124", "workspace:."]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["simple", [\
-      ["workspace:examples/simple", {\
-        "packageLocation": "./examples/simple/",\
-        "packageDependencies": [\
-          ["simple", "workspace:examples/simple"]\
+          ["node-loaders-examples", "workspace:."]\
         ],\
         "linkType": "SOFT"\
       }]\
